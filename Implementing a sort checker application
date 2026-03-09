@@ -29,6 +29,6 @@ class SortChecker {
             }
         }
         // Return if we have not returned false so far
-        return ____;
+        return true;
     }
 }
