@@ -1,0 +1,10 @@
+public Contact findContact(String name) {
+  // Complete loop to search through contacts
+  for (Contact contact : contacts) {
+    if (contact.getName().equals(name)) {
+      // Return the match
+      return contact;
+    }
+  }
+  return null;
+}
