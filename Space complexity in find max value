@@ -1,0 +1,13 @@
+public int findMaxValue(int[] data) {
+  // Initialize the maximum value to the first element
+  int max = data[0];
+
+  for (int value : data) {
+    // Update max if current element is greater
+    if (value > max) {
+      max = value;
+    }
+  }
+
+  return max;
+}
